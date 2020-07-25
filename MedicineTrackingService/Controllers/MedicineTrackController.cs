@@ -36,6 +36,8 @@ namespace MedicineTrackingService.Controllers
                 medicineResponse.MedicineInfoDto = medicines;
                 medicineResponse.ExtendedInfo = string.Empty;
                 medicineResponse.IsSuccess = true;
+                if (medicineResponse.MedicineInfoDto.Count == 0)
+                    medicineResponse.ExtendedInfo = "No record found, sorry..";
             }
             catch (Exception ex)
             {
