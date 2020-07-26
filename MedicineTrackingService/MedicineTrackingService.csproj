@@ -140,6 +140,7 @@
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\vithalmovie - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\vithalmovie - ReadOnly - FTP.pubxml" />
+    <Content Include="Readme.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
